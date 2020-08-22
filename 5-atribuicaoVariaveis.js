@@ -1,6 +1,6 @@
 console.log("Trabalhando com variáveis");
 
-const idade = 29;
+
 const nome = "Pedro";
 const sobrenome = "Schiavom";
 
@@ -10,4 +10,8 @@ console.log(`Meu nome é ${nome} ${sobrenome}` );
 
 const nomeCompleto = nome + sobrenome;
 console.log(nomeCompleto);
-nomeCompleto = 2;
+
+let idade;
+idade = 26;
+idade = idade + 1;
+console.log(idade);
